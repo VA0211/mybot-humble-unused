@@ -22,6 +22,7 @@ diff_cont:
     wheel_radius: 0.05
 
     use_stamped_vel: false
+    default: true
 
     # open_loop: false    
 
