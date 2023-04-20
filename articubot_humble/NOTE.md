@@ -4,3 +4,7 @@
 - [Control the motor via Arduino](https://www.youtube.com/watch?v=QMgckRoRy38)
 
 ---
+
+## Encoder
+- [Connect encoder and motor not using Arduino](https://www.youtube.com/watch?v=MJSROsOYZt0)
+- [Read motor speed via Arduino](https://www.youtube.com/watch?v=V1txmR8GXzE)

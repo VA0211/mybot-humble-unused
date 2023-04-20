@@ -25,7 +25,7 @@ sudo apt install ros-humble-joint-state-publisher-gui ros-humble-gazebo-ros2-con
 - Before power off the pi, shut the ssh connection: sudo shutdown -h now
 - [Set up LD06 small lidar](https://www.youtube.com/watch?v=OJWAsV6-0GE)
 <br>
-sudo apt install libraspberrypi-bin v4l-utils ros-humble-v4l2-camera
+sudo apt install libraspberrypi-bin v4l-utils ros-humble-v4l2-camera python3-serial
 <br>
 git clone https://github.com/joshnewans/diffdrive_arduino.git
 <br>
