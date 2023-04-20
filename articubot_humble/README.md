@@ -7,12 +7,16 @@ I'm also using [his GitHub template](https://github.com/joshnewans/my_bot).
 ### Both ws
 - Install Arduino IDE, ROS2 Humble (via Debian, Desktop version)
 - Add sourcing to shell startup script: echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+<br>
 git clone https://github.com/joshnewans/serial_motor_demo.git
+<br>
 sudo apt install git python3-colcon-common-extensions ros-humble-xacro ros-humble-image-transport-plugins ros-humble-rqt-image-view ros-humble-ros2-control ros-humble-ros2-controllers 
 
 ### dev_ws
 sudo snap install --classic code
+<br>
 sudo apt install ros-humble-joint-state-publisher-gui ros-humble-gazebo-ros2-control joystick jstest-gtk evtest
+<br>
 ~/dev_ws/src$ git clone -b humble https://github.com/ros-controls/gazebo_ros2_control
 
 ### robot_ws
