@@ -31,6 +31,8 @@
         </xacro:inertial_cylinder>
     </link>
 
+
+
     <gazebo reference="laser_frame">
         <material>Gazebo/Black</material>
 
