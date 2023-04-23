@@ -32,7 +32,7 @@ git clone https://github.com/joshnewans/diffdrive_arduino.git
 git clone https://github.com/joshnewans/serial.git
 
 ---
-### Simulation
+## Simulation
 
 Run Gazebo: ros2 launch articubot_humble launch_sim.launch.py world:=src/articubot_humble/worlds/obstacles.world
 
@@ -47,6 +47,8 @@ Run SLAM: ros2 launch articubot_humble online_async_launch.py use_sim_time:=true
 Run Nav2:
 
 ---
+## Real life ver
+
 ### Camera node
 - robot_ws: ros2 launch camera.launch.py
 - dev_ws: ros2 run rqt_image_view rqt_image_view
